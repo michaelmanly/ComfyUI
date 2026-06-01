@@ -84,6 +84,7 @@ See what ComfyUI can do with the [newer template workflows](https://comfy.org/wo
    - [Flux 2](https://comfyanonymous.github.io/ComfyUI_examples/flux2/)
    - [Z Image](https://comfyanonymous.github.io/ComfyUI_examples/z_image/)
    - Ernie Image
+   - NVIDIA PixelDiT / PiD
 - Image Editing Models
    - [Omnigen 2](https://comfyanonymous.github.io/ComfyUI_examples/omnigen/)
    - [Flux Kontext](https://comfyanonymous.github.io/ComfyUI_examples/flux/#flux-kontext-image-editing-model)
@@ -102,9 +103,10 @@ See what ComfyUI can do with the [newer template workflows](https://comfy.org/wo
    - [ACE Step](https://comfyanonymous.github.io/ComfyUI_examples/audio/)
 - 3D Models
    - [Hunyuan3D 2.0](https://docs.comfy.org/tutorials/3d/hunyuan3D-2)
+   - Gaussian Splats (load, render, transform, merge, and save .ply / .splat / .spz / .ksplat files)
 - Asynchronous Queue system
 - Many optimizations: Only re-executes the parts of the workflow that changes between executions.
-- Smart memory management: can automatically run large models on GPUs with as low as 1GB vram with smart offloading.
+- Smart memory management: can automatically run large models on GPUs with as low as 1GB vram with smart offloading. Use `--fast-disk` to prefer disk-backed dynamic loading for users with fast NVMe drives.
 - Works even if you don't have a GPU with: ```--cpu``` (slow)
 - Can load ckpt and safetensors: All in one checkpoints or standalone diffusion models, VAEs and CLIP models.
 - Safe loading of ckpt, pt, pth, etc.. files.
