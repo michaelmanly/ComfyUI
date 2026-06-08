@@ -62,6 +62,9 @@ Supports all operating systems and GPU types (NVIDIA, AMD, Intel, Apple Silicon,
 #### [Comfy Cloud](https://www.comfy.org/cloud)
 - Our official paid cloud version for those who can't afford local hardware.
 
+#### [AI Badgr](https://aibadgr.com/gpu/launch?template=comfyui)
+- Launch ComfyUI on AI Badgr, a third-party cloud GPU provider.
+
 ## Examples
 See what ComfyUI can do with the [newer template workflows](https://comfy.org/workflows) or old [example workflows](https://comfyanonymous.github.io/ComfyUI_examples/).
 
